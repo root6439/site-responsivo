@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title> Contato </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/aps.css" />
+</head>
+<body>
+
+	<script type="text/javascript">
+					alert("Objetos sinalizados com * são obrigatórios")
+
+					function myfunction() {
+						var nome = document.getElementById('nome').value;
+						var telefone = document.getElementById('telefone').value;
+						var email = document.getElementById('e-mail').value;
+
+						if (nome == 0) {
+							alert("Para cadastrar seu currículo no nosso banco de dados, insira seu nome.")
+						} if (telefone == 0) {
+							alert("Para cadastrar seu currículo no nosso banco de dados, insira seu telefone.")
+						} if (email == 0) {
+							alert("Para cadastrar seu currículo no nosso banco de dados, insira seu e-mail.")
+						} else {
+							alert("usuario cadastrado")
+						}
+
+
+						}
+
+
+				</script>
+
+<nav class="nav-collapse">
+		<ul>
+			<li><a href="index.html"> Página Inicial </a></li>
+			<li><a href="biografia.html"> Sobre Nós </a></li>
+			<li><a href="aps.html">Contato</a></li>
+	 	</ul>
+	</nav>
+		
+
+<center> 
+
+	<div>
+		<img src="imagens/imagens-top/img05.jpg">	<br> 
+	</div>
+		<h1> Trabalhe Conosco </h1>
+		<form> 
+			<input type="text" id="nome" placeholder="Nome*"> <br> 
+			<br> <select name="uf" class="jumpMenu sexo">
+			<option> Sexo: </option> <option> Masculino </option> <option> Feminino </option>
+			</select> <br> 
+			<br> <input type="e-mail" id="e-mail" placeholder="E-mail*"> <br> 
+			<br> <input type="number" id="telefone" placeholder="Telefone*"> <br>
+			<br> <input type="text" id="endereco" placeholder="Endereço"> <br> 
+			<br> <input type="text" id="cidade" placeholder="Cidade"> <br> 
+			<br> <select name="uf" class="jumpMenu estado">
+            <option> UF: </option> <option> Acre </option>	<option>Alagoas</option><option>Amapá </option><option>Amazonas</option><option>Bahia</option><option>Ceará </option><option>Distrito Federal</option><option>Espírito Santo</option><option>Goiás</option><option>Maranhão</option><option>Mato Grosso</option><option>Mato Grosso do Su</option><option>Minas Gerais</option><option>Pará</option><option>Paraíba </option><option>Paraná </option><option>Pernambuco</option><option>Piauí</option><option>Rio de Janeiro</option><option>Rio Grande do Norte</option><option>Rio Grande do Sul</option><option>Rondônia</option><option>Roraima</option><option>Santa Catarina</option><option>São Paulo </option><option>Sergipe</option><option>Tocantins</option>
+            </select>  <br>
+			<br> <input type="file" name="anexo" id="textfield8" class="textfield"> <br> 
+			<br> Escreva aqui a sua mensagem. <br> 
+			<br> <textarea id="mensagem"> </textarea> <br> 
+			<br> <button onclick="myfunction()"> Enviar </button>
+		</form>
+</center>
+</body>
+</html>

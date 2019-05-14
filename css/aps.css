@@ -1,0 +1,194 @@
+@charset "utf-8"
+
+
+img 
+{
+    width: 60%;
+    height: 200px;
+    border-radius: 1em;
+}
+
+input
+{
+    width: 43%;
+    height: ;
+    padding:5px; 
+    border:2px solid #ccc; 
+    border-radius: 10px;
+}
+
+textarea
+{
+    width: 43%;
+    height: 150px;
+    padding: 5px; 
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: white;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+select {
+    width: 44%;
+    height: ;
+    padding:5px; 
+    border:2px solid #ccc; 
+    border-radius: 10px;
+
+}
+
+div {
+    background-color: lightgray;
+    padding: 3%;
+    border-radius: 1em;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    div {
+        background-color: lightblue;
+        padding: 3%
+    }
+
+img 
+{
+
+    width: 80%;
+    height: 200px;
+    border-radius: 1em;
+}
+
+input
+{
+    width: 43%;
+    height: ;
+    padding: 1%; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+}
+
+textarea
+{
+    width: 43%;
+    height: 150px;
+    padding:5px; 
+    border:2px solid #ccc; 
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: white;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+select {
+    width: 44%;
+    height: ;
+    padding:5px; 
+    border:2px solid #ccc; 
+    border-radius: 10px;
+
+}
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    div {
+        background-color: red;
+        padding: 3%
+    }
+
+img 
+{
+    border-radius: 1em;
+    width: 100%;
+    height: 150px;
+
+}
+
+input
+{
+    width: 43%;
+    height: ;
+    padding: 1%; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+}
+
+textarea
+{
+    width: 60%;
+    height: 100px;
+    padding:5px; 
+    border:2px solid #ccc; 
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: white;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+select {
+    width: 44%;
+    height: ;
+    padding:5px; 
+    border:2px solid #ccc; 
+    border-radius: 10px;
+
+}
+
+}
